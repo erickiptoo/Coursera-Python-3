@@ -1,0 +1,17 @@
+#Write a program that uses the turtle module to draw something. It doesn’t have to be complicated, but draw something different than we have done in the past. (Hint: if you are drawing something complicated, it could get tedious to watch it draw over and over. Try setting .speed(10) for the turtle to draw fast, or .speed(0) for it to draw super fast with no animation.)
+import turtle
+wn=turtle.Screen()
+
+eric=turtle.Turtle()
+eric.shape("turtle")
+eric.speed(0)
+d=10
+a=5
+for i in range(300):
+
+    eric.speed(0)
+    eric.forward(30)
+    eric.left(4)
+    eric.forward(20)
+    eric.right(80)
+    eric.forward(50)
